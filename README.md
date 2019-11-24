@@ -1,5 +1,9 @@
 # RealClipper
 Julia wrapping of Clipper using real point type
 
-# Install
+# Installation
 Still unable to install by Pkg. Please download it directly and copy realclipper.jl to your working directory. Then include("realclipper.jl"); using RealClipper .
+
+# Usage
+Available function list:
+- poly_inter_area(): Computes the interaction area of two polygons. Returns a non-negative scalar.
